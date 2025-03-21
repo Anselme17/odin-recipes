@@ -1,1 +1,2 @@
 # odin-recipes
+This project gives me the opportunity to test the new abilities that I learned in the firt part of the Odin Project wich are : Directories manipulation, use of HTML, creating the basics of a Website and addings images.
