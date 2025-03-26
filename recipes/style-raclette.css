@@ -1,0 +1,29 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+h1 {
+    color: rgba(200, 97, 0, 0.897);
+    text-align: center;
+    background-color: #dac82c;
+}
+
+.footer-link {
+    position: fixed;
+    bottom: 10px; /* Ajuste la marge par rapport au bas */
+    left: 10px; /* Ajuste la marge par rapport à la gauche */
+    font-size: 20px;
+}
+
+
+.scaleimg {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,36 @@
+
+
+body {
+    width: 300px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+h1 {
+    color: rgba(200, 97, 0, 0.897);
+    text-align: center;
+    background-color: #dac82c;
+}
+
+.footer-links {
+    position: absolute;
+    top: 110px; /* Ajuste la marge par rapport au bas */
+    left: 10px; /* Ajuste la marge par rapport à la gauche */
+}
+
+.footer-links a {
+    display: block;  /* Chaque lien prend toute la largeur */
+    margin-bottom: 100px; /* Espacement entre les liens */
+    font-size: 18px;
+    color: rgb(180, 42, 0);
+}
+
+.scaleimg {
+    height: auto;
+    width: 150px;
+  }
+
+.image-recipes img {
+    display: block;  /* Chaque lien prend toute la largeur */
+}
