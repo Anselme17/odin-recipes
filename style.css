@@ -1,9 +1,10 @@
 
 
 body {
-    width: 300px;
-    margin: 0 auto;
+    width: 500px;
     font-family: sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 
@@ -11,26 +12,27 @@ h1 {
     color: rgba(200, 97, 0, 0.897);
     text-align: center;
     background-color: #dac82c;
+    margin: 0 auto;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center; /* Centre verticalement l'image avec le texte */
+    margin: 30px auto;
 }
 
 .footer-links {
-    position: absolute;
-    top: 110px; /* Ajuste la marge par rapport au bas */
-    left: 10px; /* Ajuste la marge par rapport à la gauche */
-}
-
-.footer-links a {
     display: block;  /* Chaque lien prend toute la largeur */
-    margin-bottom: 100px; /* Espacement entre les liens */
     font-size: 18px;
-    color: rgb(180, 42, 0);
+    color: rgb(199, 114, 2);
+    background-color: #eec233;
+    border: 2px;
+    border-color: black;
+    padding: 30px;
+    width: 250px;
 }
 
 .scaleimg {
     height: auto;
     width: 150px;
-  }
-
-.image-recipes img {
-    display: block;  /* Chaque lien prend toute la largeur */
 }
